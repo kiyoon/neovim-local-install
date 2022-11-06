@@ -41,10 +41,6 @@ add_line_to_profile ~/.bash_aliases 'alias vi=nvim'
 add_line_to_profile ~/.bash_aliases 'alias vim=nvim'
 add_line_to_profile ~/.bash_aliases "alias vimdiff='nvim -d'"
 add_line_to_profile ~/.bashrc "export EDITOR=nvim"
-echo "alias vi='nvim'" >> ~/.bash_aliases
-echo "alias vim='nvim'" >> ~/.bash_aliases
-echo "alias vimdiff='nvim -d'" >> ~/.bash_aliases
-echo "export EDITOR=nvim" >> ~/.bashrc
 
 cd -
 \source ~/.bashrc
